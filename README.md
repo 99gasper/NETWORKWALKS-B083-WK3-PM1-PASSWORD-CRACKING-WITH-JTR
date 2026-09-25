@@ -45,8 +45,7 @@ After installation, I opened John the Ripper and made sure it was ready to be us
 
 ### Evidence
 
-![John the Ripper Installation](screenshots/1-install-JtR.png)
-
+<img src="./screenshots/1-install JtR.png" width="800">
 ---
 
 ## Step 2: Extracting PDF Hash Values
@@ -59,8 +58,9 @@ The three PDF files produced three separate hash values.
 
 ### Evidence
 
-![PDF Hash Extraction](screenshots/02-pdf-hash-extraction.png)
-
+<img src="./screenshots/2-pic1.png" width="800">
+<img src="./screenshots/2-pic2.png" width="800">
+<img src="./screenshots/2-pic3.png" width="800">
 ---
 
 ## Step 3: Saving the Extracted Hashes
@@ -77,7 +77,7 @@ These files were then used as input for John the Ripper.
 
 ### Evidence
 
-![Hash Files](screenshots/03-hash-files.png)
+<img src="./screenshots/3-hash text.png" width="800">
 
 ---
 
@@ -91,8 +91,9 @@ After the cracking process was completed, John the Ripper revealed the recovered
 
 ### Evidence
 
-![John the Ripper Cracking](screenshots/04-john-cracking.png)
-
+<img src="./screenshots/4-pass1.png" width="800">
+<img src="./screenshots/4-pass2.png" width="800">
+<img src="./screenshots/4-pass3.png" width="800">
 ---
 
 ## Step 5: Verifying the Recovered Passwords
@@ -103,8 +104,9 @@ I entered each recovered password into its corresponding protected PDF file. The
 
 ### Evidence
 
-![PDF Password Verification](screenshots/05-pdf-password-verification.png)
-
+<img src="./screenshots/5-pdf1.png" width="800">
+<img src="./screenshots/5-pdf2.png" width="800">
+<img src="./screenshots/5-pdf3.png" width="800">
 ---
 
 # 📊 Practical Summary
@@ -146,32 +148,6 @@ Based on this practical, I recommend:
 
 ---
 
-# 📸 Evidence
-
-Screenshots from the practical are stored in the `screenshots` folder.
-
-Suggested structure:
-
-```text
-Password-Cracking-JTR/
-│
-├── README.md
-│
-├── screenshots/
-│   ├── 01-john-installation.png
-│   ├── 02-pdf-hash-extraction.png
-│   ├── 03-hash-files.png
-│   ├── 04-john-cracking.png
-│   └── 05-pdf-password-verification.png
-│
-├── hash1.txt
-├── hash2.txt
-└── hash3.txt
-```
-
-> **Security note:** Do not publish real passwords, sensitive hashes, or confidential documents in a public GitHub repository. Replace sensitive evidence with safe screenshots or redact the sensitive parts before publishing.
-
----
 
 # ✅ Conclusion
 
