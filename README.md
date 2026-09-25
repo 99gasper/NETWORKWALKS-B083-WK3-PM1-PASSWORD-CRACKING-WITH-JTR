@@ -45,7 +45,7 @@ After installation, I opened John the Ripper and made sure it was ready to be us
 
 ### Evidence
 
-![John the Ripper Installation](screenshots/01-john-installation.png)
+![John the Ripper Installation](screenshots/1-install-JtR.png)
 
 ---
 
